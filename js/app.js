@@ -1,7 +1,7 @@
 'use strict' ;
 
 let userPoints = 0;
-alert('WELCOE TO GUESS ABOUT ME GAME ');
+alert('WELCOME TO GUESS ABOUT ME GAME ');
 let userName = prompt('What is Your name ? ');
 
 alert( 'HELLO ' + userName+ ' !');
@@ -54,17 +54,17 @@ while( drinkTea.toLowerCase() !== 'no' && drinkTea.toLowerCase() !== 'yes' && dr
   drinkTea = prompt('Am I a Tea lover? no/yes');
 }
 if ( drinkTea.toLowerCase()=== 'yes' || drinkTea.toLowerCase()=== 'y' ) {
-  // console.log('NOPE ! .. Iam a Coffee lover , i drink tea somtime');
-  alert('NOPE ! .. Iam a Coffee lover , i drink tea somtime');
+  // console.log('NOPE ! .. Iam a Coffee lover , i drink tea sometime');
+  alert('NOPE ! .. Iam a Coffee lover , i drink tea sometime');
   userPoints = userPoints + 4;
 } else {
   // console.log('You\r right ... I am not a tea lover ');
   alert('You\r right ... I am not a tea lover ');
   userPoints = userPoints + 10;
 }
-let finalQuestion = prompt('Do you think I\'ll be a Great softwear devolper? yes/no');
+let finalQuestion = prompt('Do you think I\'ll be a Great software developer? yes/no');
 while( finalQuestion.toLowerCase() !== 'no' && finalQuestion.toLowerCase() !== 'yes' && finalQuestion.toLowerCase() !== 'n' && finalQuestion.toLowerCase() !== 'y') {
-  finalQuestion = prompt('Do you think I\'ll be a Great softwear devolper? yes/no');
+  finalQuestion = prompt('Do you think I\'ll be a Great software developer? yes/no');
 }
 if ( finalQuestion.toLowerCase()=== 'yes'|| finalQuestion.toLowerCase()=== 'y' ) {
   // console.log('Thank you so much for that <3 ');
@@ -80,3 +80,4 @@ alert('Welcome Again  ' + userName + ' ,Your score : ' + userPoints+'/60');
 
 document.write('YOUR SCORE IN THIS GAME ' + '<b>'+userPoints+'</b>'+'/60' +' Point');
 console.log(userPoints);
+
