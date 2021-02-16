@@ -2,6 +2,11 @@ body{
     width: 920px;
     margin: auto;
     background-color: beige;
+    border-style:solid;
+}
+ main{
+    align-items: center;
+    margin-inline-start: 10%;
 }
 
 img{
@@ -27,6 +32,26 @@ span{
 main ul{
     display: inline-block;
 }
-li{
+ul li{
     display: block;
+}
+ol  {
+    font-size: 20px; font-weight: bold;
+    border-style: solid;
+background-color: rgb(207, 207, 190);
+    border-color: gray;
+    display: inline-block;
+}
+p{
+    width: 65%;
+}
+
+header{
+    text-align:center ;
+
+    background-color: rgba(223, 223, 195, 0.966);
+    font-weight: bold;
+    color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
 }
