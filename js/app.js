@@ -1,3 +1,4 @@
+/* eslint-disable new-cap */
 /* eslint-disable no-unused-vars */
 'use strict' ;
 
@@ -7,6 +8,7 @@ let userName = prompt('What is Your name ? ');
 
 alert( 'HELLO ' + userName+ ' !');
 // console.log('my name is Mousa , ' + 'HELLO ' + userName+ ' !');
+
 
 let myJob = prompt('Am I an electrical engineer?');
 while( myJob.toLowerCase() !== 'no' && myJob.toLowerCase() !== 'yes' && myJob.toLowerCase() !== 'n' && myJob.toLowerCase() !== 'y'){
@@ -21,6 +23,9 @@ if ( myJob.toLowerCase()=== 'yes' || myJob.toLowerCase()=== 'y' ) {
   alert('You are wrong , I am an Electrical Power Engineer ');
 
 }
+
+
+
 
 let movies = prompt('Do you think I like Movies? yes/no');
 while( movies.toLowerCase() !== 'no' && movies.toLowerCase() !== 'yes' && movies.toLowerCase() !== 'n' && movies.toLowerCase() !== 'y') {
