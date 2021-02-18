@@ -9,6 +9,7 @@ while (!userName ) {
 alert( 'HELLO ' + userName+ ' !');
 
 
+
 let myJob = prompt('Am I an electrical engineer?');
 while( myJob.toLowerCase() !== 'no' && myJob.toLowerCase() !== 'yes' && myJob.toLowerCase() !== 'n' && myJob.toLowerCase() !== 'y'){
   myJob = prompt('Am I an  Engineer?');
