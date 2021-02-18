@@ -1,13 +1,13 @@
-/* eslint-disable new-cap */
-/* eslint-disable no-unused-vars */
 'use strict' ;
 
 let userPoints = 0;
 alert('WELCOME TO GUESS ABOUT ME GAME ');
 let userName = prompt('What is Your name ? ');
-
+while (!userName ) {
+  userName = prompt('What is Your name ? ');
+}
 alert( 'HELLO ' + userName+ ' !');
-// console.log('my name is Mousa , ' + 'HELLO ' + userName+ ' !');
+
 
 
 let myJob = prompt('Am I an electrical engineer?');
@@ -15,11 +15,9 @@ while( myJob.toLowerCase() !== 'no' && myJob.toLowerCase() !== 'yes' && myJob.to
   myJob = prompt('Am I an  Engineer?');
 }
 if ( myJob.toLowerCase()=== 'yes' || myJob.toLowerCase()=== 'y' ) {
-  // console.log('You\'re right, I am an Electrical Power Engineer . Well done ^.^');
   alert('You\'re right, I am an Electrical Power Engineer . Well done ^.^');
   userPoints++;
 } else {
-  // console.log('You are wrong , I am an Electrical Power Engineer ');
   alert('You are wrong , I am an Electrical Power Engineer ');
 
 }
@@ -32,11 +30,9 @@ while( movies.toLowerCase() !== 'no' && movies.toLowerCase() !== 'yes' && movies
   movies = prompt('Do you think I like Movies? yes/no');
 }
 if ( movies.toLowerCase()=== 'yes' || movies.toLowerCase()=== 'y' ) {
-  // console.log('You\'re right, I like watching movies. Well done ^.^');
   alert('You\'re right, I like watching movies. Well done ^.^');
   userPoints++;
 } else {
-  // console.log('I\'m sorry I really love watching movies Good luck with your next questions.');
   alert('I\'m sorry I really love watching movies Good luck with your next questions.');
 }
 
@@ -45,11 +41,9 @@ while( (gamerOrNot.toLowerCase() !== 'no') && (gamerOrNot.toLowerCase() !== 'yes
   gamerOrNot = prompt('Do you think I like Video Games? yes/no');
 }
 if ( gamerOrNot.toLowerCase()=== 'yes' || gamerOrNot.toLowerCase()=== 'y' ) {
-  // console.log('You\'re right, I am a gamer , i play "league of legends" ');
   alert('You\'re right, I am a gamer , i play "league of legends" ');
   userPoints++;
 } else {
-  // console.log('WRONG !');
   alert('WRONG !');
 }
 
@@ -58,10 +52,8 @@ while( drinkTea.toLowerCase() !== 'no' && drinkTea.toLowerCase() !== 'yes' && dr
   drinkTea = prompt('Am I a Tea lover? no/yes');
 }
 if ( drinkTea.toLowerCase()=== 'yes' || drinkTea.toLowerCase()=== 'y' ) {
-  // console.log('NOPE ! .. Iam a Coffee lover , i drink tea sometime');
   alert('NOPE ! .. Iam a Coffee lover , i drink tea sometime');
 } else {
-  // console.log('You\r right ... I am not a tea lover ');
   alert('You\r right ... I am not a tea lover ');
   userPoints++;
 }
@@ -70,11 +62,9 @@ while( finalQuestion.toLowerCase() !== 'no' && finalQuestion.toLowerCase() !== '
   finalQuestion = prompt('Do you think I\'ll be a Great software developer? yes/no');
 }
 if ( finalQuestion.toLowerCase()=== 'yes'|| finalQuestion.toLowerCase()=== 'y' ) {
-  // console.log('Thank you so much for that <3 ');
   alert('Thank you so much for that <3 ');
   userPoints++;
 } else {
-  // console.log('we will see :)');
   alert('we will see :)');
 
 }
